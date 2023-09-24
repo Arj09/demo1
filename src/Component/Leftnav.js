@@ -223,7 +223,7 @@ const Smallcard = styled("div")(({theme})=>({
 
 export  function Leftnav() {
   const theme = useTheme();
-  const [open1, setopen1] =  React.useState(true)
+  const [open1, setopen1] =  React.useState(false)
 
   const [open, setOpen] = React.useState(false);
 
